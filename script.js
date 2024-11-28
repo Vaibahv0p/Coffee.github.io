@@ -31,7 +31,5 @@ document.querySelector('.order-form').addEventListener('submit', function (e) {
     We will contact you at ${email} or ${phone} for updates. Enjoy your coffee!
   `;
   alert(orderSummary);
-
-  // Optionally, clear the form after submission
   document.querySelector('.order-form').reset();
 });
